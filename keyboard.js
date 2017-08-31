@@ -45,7 +45,7 @@ $(function(){
 		
 		if ($this.hasClass('clear')) {
 			var html = $write.html();
-			$write.html(html.substr(0, html.length - html.length));
+			$write.html(html.substr(0, html.length - html.all));
 			return false;
 		}
 		
